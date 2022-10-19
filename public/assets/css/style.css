@@ -62,7 +62,7 @@ This files table contents are outlined below>>>>>
 /* Color Variables */
 /* Others Variables */
 body {
-  font-size: 17px;
+  font-size: 15px;
   font-family: "IBM Plex Sans", sans-serif;
   color: #707070;
   line-height: 1.6;
@@ -88,7 +88,7 @@ a:focus {
 }
 
 p {
-  font-size: 17px;
+  font-size: 15px;
   color: #707070;
   line-height: 1.8;
 }
@@ -204,7 +204,7 @@ h3 {
 .navbar-area .main-nav .navbar .navbar-nav .nav-item .nav-link {
   text-transform: capitalize;
   font-family: "Catamaran", sans-serif;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .navbar-area .main-nav .navbar .navbar-nav .nav-item .nav-link.dropdown-toggle::after {
@@ -247,9 +247,9 @@ h3 {
 .navbar-area .main-nav .navbar .other-option .signin-btn, .navbar-area .main-nav .navbar .other-option .signup-btn {
   color: #ffffff;
   font-family: "Catamaran", sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
-  padding: 5px 20px;
+  padding: 5px 15px;
   background: #fd1616;
   border-radius: 5px;
 }
