@@ -5,22 +5,22 @@ const Home = () => {
    return (
       <>
          {/* <!-- Pre-loader Start --> */}
-         <div class="loader-content">
-            <div class="d-table">
-               <div class="d-table-cell">
-                  <div class="sk-circle">
-                     <div class="sk-circle1 sk-child"></div>
-                     <div class="sk-circle2 sk-child"></div>
-                     <div class="sk-circle3 sk-child"></div>
-                     <div class="sk-circle4 sk-child"></div>
-                     <div class="sk-circle5 sk-child"></div>
-                     <div class="sk-circle6 sk-child"></div>
-                     <div class="sk-circle7 sk-child"></div>
-                     <div class="sk-circle8 sk-child"></div>
-                     <div class="sk-circle9 sk-child"></div>
-                     <div class="sk-circle10 sk-child"></div>
-                     <div class="sk-circle11 sk-child"></div>
-                     <div class="sk-circle12 sk-child"></div>
+         <div className="loader-content">
+            <div className="d-table">
+               <div className="d-table-cell">
+                  <div className="sk-circle">
+                     <div className="sk-circle1 sk-child"></div>
+                     <div className="sk-circle2 sk-child"></div>
+                     <div className="sk-circle3 sk-child"></div>
+                     <div className="sk-circle4 sk-child"></div>
+                     <div className="sk-circle5 sk-child"></div>
+                     <div className="sk-circle6 sk-child"></div>
+                     <div className="sk-circle7 sk-child"></div>
+                     <div className="sk-circle8 sk-child"></div>
+                     <div className="sk-circle9 sk-child"></div>
+                     <div className="sk-circle10 sk-child"></div>
+                     <div className="sk-circle11 sk-child"></div>
+                     <div className="sk-circle12 sk-child"></div>
                   </div>
                </div>
             </div>
@@ -30,39 +30,39 @@ const Home = () => {
          <Navbar />
 
          {/* <!-- Banner Section Start --> */}
-         <div class="banner-section">
-            <div class="d-table">
-               <div class="d-table-cell">
-                  <div class="container">
-                     <div class="banner-content text-center">
+         <div className="banner-section">
+            <div className="d-table">
+               <div className="d-table-cell">
+                  <div className="container">
+                     <div className="banner-content text-center">
                         <p>Find Jobs, Employment & Career Opportunities</p>
                         <h1>Drop Resume & Get Your Desire Job!</h1>
 
-                        <form class="banner-form">
-                           <div class="row">
-                              <div class="col-md-4">
-                                 <div class="form-group">
+                        <form className="banner-form">
+                           <div className="row">
+                              <div className="col-md-4">
+                                 <div className="form-group">
                                     <label for="exampleInputEmail1">Keyword:</label>
-                                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Job Title" />
+                                    <input type="text" className="form-control" id="exampleInputEmail1" placeholder="Job Title" />
                                  </div>
                               </div>
-                              <div class="col-md-4">
-                                 <div class="form-group">
+                              <div className="col-md-4">
+                                 <div className="form-group">
                                     <label for="exampleInputEmail2">Location:</label>
-                                    <input type="text" class="form-control" id="exampleInputEmail2" placeholder="City or State" />
+                                    <input type="text" className="form-control" id="exampleInputEmail2" placeholder="City or State" />
                                  </div>
                               </div>
 
-                              <div class="col-md-4">
-                                 <button type="submit" class="find-btn">
-                                    Find A Job
-                                    <i class='bx bx-search'></i>
+                              <div className="col-md-4">
+                                 <button type="submit" className="find-btn">
+                                    Find A Jonb
+                                    <i className='bx bx-search'></i>
                                  </button>
                               </div>
                            </div>
                         </form>
 
-                        <ul class="keyword">
+                        <ul className="keyword">
                            <li>Trending Keywords:</li>
                            <li><a href="#">Automotive,</a></li>
                            <li><a href="#">Education,</a></li>
@@ -78,88 +78,88 @@ const Home = () => {
          {/* <!-- Banner Section End --> */}
 
          {/* <!-- Category Section Start --> */}
-         <section class="categories-section pt-100 pb-70">
-            <div class="container">
-               <div class="section-title text-center">
+         <section className="categories-section pt-100 pb-70">
+            <div className="container">
+               <div className="section-title text-center">
                   <h2>Choose Your Category</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices.</p>
                </div>
 
-               <div class="row">
-                  <div class="col-lg-3 col-md-4 col-sm-6">
+               <div className="row">
+                  <div className="col-lg-3 col-md-4 col-sm-6">
                      <a href="job-list.html">
-                        <div class="category-card">
-                           <i class='flaticon-accounting'></i>
+                        <div className="category-card">
+                           <i className='flaticon-accounting'></i>
                            <h3>Accountancy</h3>
                            <p>301 open position</p>
                         </div>
                      </a>
                   </div>
 
-                  <div class="col-lg-3 col-md-4 col-sm-6">
+                  <div className="col-lg-3 col-md-4 col-sm-6">
                      <a href="job-list.html">
-                        <div class="category-card">
-                           <i class='flaticon-graduation-cap'></i>
+                        <div className="category-card">
+                           <i className='flaticon-graduation-cap'></i>
                            <h3>Education</h3>
                            <p>210 open position</p>
                         </div>
                      </a>
                   </div>
 
-                  <div class="col-lg-3 col-md-4 col-sm-6">
+                  <div className="col-lg-3 col-md-4 col-sm-6">
                      <a href="job-list.html">
-                        <div class="category-card">
-                           <i class='flaticon-wrench-and-screwdriver-in-cross'></i>
+                        <div className="category-card">
+                           <i className='flaticon-wrench-and-screwdriver-in-cross'></i>
                            <h3>Automotive Jobs</h3>
                            <p>281 open position</p>
                         </div>
                      </a>
                   </div>
 
-                  <div class="col-lg-3 col-md-4 col-sm-6">
+                  <div className="col-lg-3 col-md-4 col-sm-6">
                      <a href="job-list.html">
-                        <div class="category-card">
-                           <i class='flaticon-consultation'></i>
+                        <div className="category-card">
+                           <i className='flaticon-consultation'></i>
                            <h3>Business</h3>
                            <p>122 open position</p>
                         </div>
                      </a>
                   </div>
 
-                  <div class="col-lg-3 col-md-4 col-sm-6">
+                  <div className="col-lg-3 col-md-4 col-sm-6">
                      <a href="job-list.html">
-                        <div class="category-card">
-                           <i class='flaticon-heart'></i>
+                        <div className="category-card">
+                           <i className='flaticon-heart'></i>
                            <h3>Health Care</h3>
                            <p>335 open position</p>
                         </div>
                      </a>
                   </div>
 
-                  <div class="col-lg-3  col-md-4 col-sm-6">
+                  <div className="col-lg-3  col-md-4 col-sm-6">
                      <a href="job-list.html">
-                        <div class="category-card">
-                           <i class='flaticon-computer'></i>
+                        <div className="category-card">
+                           <i className='flaticon-computer'></i>
                            <h3>IT & Agency</h3>
                            <p>401 open position</p>
                         </div>
                      </a>
                   </div>
 
-                  <div class="col-lg-3  col-md-4 col-sm-6 offset-md-2 offset-lg-0">
+                  <div className="col-lg-3  col-md-4 col-sm-6 offset-md-2 offset-lg-0">
                      <a href="job-list.html">
-                        <div class="category-card">
-                           <i class='flaticon-worker'></i>
+                        <div className="category-card">
+                           <i className='flaticon-worker'></i>
                            <h3>Engineering</h3>
                            <p>100 open position</p>
                         </div>
                      </a>
                   </div>
 
-                  <div class="col-lg-3 col-md-4 col-sm-6">
+                  <div className="col-lg-3 col-md-4 col-sm-6">
                      <a href="job-list.html">
-                        <div class="category-card">
-                           <i class='flaticon-auction'></i>
+                        <div className="category-card">
+                           <i className='flaticon-auction'></i>
                            <h3>Legal</h3>
                            <p>201 open position</p>
                         </div>
@@ -171,56 +171,56 @@ const Home = () => {
          {/* <!-- Category Section End --> */}
 
          {/* <!-- Jobs Section Start --> */}
-         <section class="job-section pb-70">
-            <div class="container">
-               <div class="section-title text-center">
+         <section className="job-section pb-70">
+            <div className="container">
+               <div className="section-title text-center">
                   <h2>Jobs You May Be Interested In</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices.</p>
                </div>
 
-               <div class="row">
-                  <div class="col-sm-6">
-                     <div class="job-card">
-                        <div class="row align-items-center">
-                           <div class="col-lg-3">
-                              <div class="thumb-img">
+               <div className="row">
+                  <div className="col-sm-6">
+                     <div className="job-card">
+                        <div className="row align-items-center">
+                           <div className="col-lg-3">
+                              <div className="thumb-img">
                                  <a href="job-details.html">
                                     <img src="assets/img/company-logo/1.png" alt="company logo" />
                                  </a>
                               </div>
                            </div>
 
-                           <div class="col-lg-6">
-                              <div class="job-info">
+                           <div className="col-lg-6">
+                              <div className="job-info">
                                  <h3>
                                     <a href="job-details.html">Post-Room Operate</a>
                                  </h3>
                                  <ul>
                                     <li>Via <a href="#">Tourt Design LTD</a></li>
                                     <li>
-                                       <i class='bx bx-location-plus'></i>
+                                       <i className='bx bx-location-plus'></i>
                                        Wellesley Rd, London
                                     </li>
                                     <li>
-                                       <i class='bx bx-filter-alt' ></i>
+                                       <i className='bx bx-filter-alt' ></i>
                                        Accountancy
                                     </li>
                                     <li>
-                                       <i class='bx bx-briefcase' ></i>
+                                       <i className='bx bx-briefcase' ></i>
                                        Freelance
                                     </li>
                                  </ul>
                               </div>
                            </div>
 
-                           <div class="col-lg-3">
-                              <div class="job-save">
+                           <div className="col-lg-3">
+                              <div className="job-save">
                                  <span>Full Time</span>
                                  <a href="#">
-                                    <i class='bx bx-heart'></i>
+                                    <i className='bx bx-heart'></i>
                                  </a>
                                  <p>
-                                    <i class='bx bx-stopwatch' ></i>
+                                    <i className='bx bx-stopwatch' ></i>
                                     1 Hr Ago
                                  </p>
                               </div>
@@ -229,47 +229,47 @@ const Home = () => {
                      </div>
                   </div>
 
-                  <div class="col-sm-6">
-                     <div class="job-card">
-                        <div class="row align-items-center">
-                           <div class="col-lg-3">
-                              <div class="thumb-img">
+                  <div className="col-sm-6">
+                     <div className="job-card">
+                        <div className="row align-items-center">
+                           <div className="col-lg-3">
+                              <div className="thumb-img">
                                  <a href="job-details.html">
                                     <img src="assets/img/company-logo/2.png" alt="company logo" />
                                  </a>
                               </div>
                            </div>
 
-                           <div class="col-lg-6">
-                              <div class="job-info">
+                           <div className="col-lg-6">
+                              <div className="job-info">
                                  <h3>
                                     <a href="job-details.html">Data Entry</a>
                                  </h3>
                                  <ul>
                                     <li>Via <a href="#">Techno Inc.</a></li>
                                     <li>
-                                       <i class='bx bx-location-plus'></i>
+                                       <i className='bx bx-location-plus'></i>
                                        Street 40/A, London
                                     </li>
                                     <li>
-                                       <i class='bx bx-filter-alt' ></i>
+                                       <i className='bx bx-filter-alt' ></i>
                                        Data Entry
                                     </li>
                                     <li>
-                                       <i class='bx bx-briefcase' ></i>
+                                       <i className='bx bx-briefcase' ></i>
                                        Freelance
                                     </li>
                                  </ul>
                               </div>
                            </div>
 
-                           <div class="col-lg-3">
-                              <div class="job-save">
+                           <div className="col-lg-3">
+                              <div className="job-save">
                                  <a href="#">
-                                    <i class='bx bx-heart'></i>
+                                    <i className='bx bx-heart'></i>
                                  </a>
                                  <p>
-                                    <i class='bx bx-stopwatch' ></i>
+                                    <i className='bx bx-stopwatch' ></i>
                                     3 Hr Ago
                                  </p>
                               </div>
@@ -278,47 +278,47 @@ const Home = () => {
                      </div>
                   </div>
 
-                  <div class="col-sm-6">
-                     <div class="job-card">
-                        <div class="row align-items-center">
-                           <div class="col-lg-3">
-                              <div class="thumb-img">
+                  <div className="col-sm-6">
+                     <div className="job-card">
+                        <div className="row align-items-center">
+                           <div className="col-lg-3">
+                              <div className="thumb-img">
                                  <a href="job-details.html">
                                     <img src="assets/img/company-logo/3.png" alt="company logo" />
                                  </a>
                               </div>
                            </div>
 
-                           <div class="col-lg-6">
-                              <div class="job-info">
+                           <div className="col-lg-6">
+                              <div className="job-info">
                                  <h3>
                                     <a href="job-details.html">Graphic Designer</a>
                                  </h3>
                                  <ul>
                                     <li>Via <a href="#">Devon Design</a></li>
                                     <li>
-                                       <i class='bx bx-location-plus'></i>
+                                       <i className='bx bx-location-plus'></i>
                                        West Sight, USA
                                     </li>
                                     <li>
-                                       <i class='bx bx-filter-alt' ></i>
+                                       <i className='bx bx-filter-alt' ></i>
                                        Graphics
                                     </li>
                                     <li>
-                                       <i class='bx bx-briefcase' ></i>
+                                       <i className='bx bx-briefcase' ></i>
                                        Freelance
                                     </li>
                                  </ul>
                               </div>
                            </div>
 
-                           <div class="col-lg-3">
-                              <div class="job-save">
+                           <div className="col-lg-3">
+                              <div className="job-save">
                                  <a href="#">
-                                    <i class='bx bx-heart'></i>
+                                    <i className='bx bx-heart'></i>
                                  </a>
                                  <p>
-                                    <i class='bx bx-stopwatch' ></i>
+                                    <i className='bx bx-stopwatch' ></i>
                                     4 Hr Ago
                                  </p>
                               </div>
@@ -327,47 +327,47 @@ const Home = () => {
                      </div>
                   </div>
 
-                  <div class="col-sm-6">
-                     <div class="job-card">
-                        <div class="row align-items-center">
-                           <div class="col-lg-3">
-                              <div class="thumb-img">
+                  <div className="col-sm-6">
+                     <div className="job-card">
+                        <div className="row align-items-center">
+                           <div className="col-lg-3">
+                              <div className="thumb-img">
                                  <a href="job-details.html">
                                     <img src="assets/img/company-logo/4.png" alt="company logo" />
                                  </a>
                               </div>
                            </div>
 
-                           <div class="col-lg-6">
-                              <div class="job-info">
+                           <div className="col-lg-6">
+                              <div className="job-info">
                                  <h3>
                                     <a href="job-details.html">Web Developer</a>
                                  </h3>
                                  <ul>
                                     <li>Via <a href="#">MegaNews</a></li>
                                     <li>
-                                       <i class='bx bx-location-plus'></i>
+                                       <i className='bx bx-location-plus'></i>
                                        San Francisco, California
                                     </li>
                                     <li>
-                                       <i class='bx bx-filter-alt' ></i>
+                                       <i className='bx bx-filter-alt' ></i>
                                        Development
                                     </li>
                                     <li>
-                                       <i class='bx bx-briefcase' ></i>
+                                       <i className='bx bx-briefcase' ></i>
                                        Freelance
                                     </li>
                                  </ul>
                               </div>
                            </div>
 
-                           <div class="col-lg-3">
-                              <div class="job-save">
+                           <div className="col-lg-3">
+                              <div className="job-save">
                                  <a href="#">
-                                    <i class='bx bx-heart'></i>
+                                    <i className='bx bx-heart'></i>
                                  </a>
                                  <p>
-                                    <i class='bx bx-stopwatch' ></i>
+                                    <i className='bx bx-stopwatch' ></i>
                                     5 Hr Ago
                                  </p>
                               </div>
@@ -376,47 +376,47 @@ const Home = () => {
                      </div>
                   </div>
 
-                  <div class="col-sm-6">
-                     <div class="job-card">
-                        <div class="row align-items-center">
-                           <div class="col-lg-3">
-                              <div class="thumb-img">
+                  <div className="col-sm-6">
+                     <div className="job-card">
+                        <div className="row align-items-center">
+                           <div className="col-lg-3">
+                              <div className="thumb-img">
                                  <a href="job-details.html">
                                     <img src="assets/img/company-logo/5.png" alt="company logo" />
                                  </a>
                               </div>
                            </div>
 
-                           <div class="col-lg-6">
-                              <div class="job-info">
+                           <div className="col-lg-6">
+                              <div className="job-info">
                                  <h3>
                                     <a href="job-details.html">Digital Marketor</a>
                                  </h3>
                                  <ul>
                                     <li>Via <a href="#">AB Marketer LTD</a></li>
                                     <li>
-                                       <i class='bx bx-location-plus'></i>
+                                       <i className='bx bx-location-plus'></i>
                                        Wellesley Rd, London
                                     </li>
                                     <li>
-                                       <i class='bx bx-filter-alt' ></i>
+                                       <i className='bx bx-filter-alt' ></i>
                                        Marketing
                                     </li>
                                     <li>
-                                       <i class='bx bx-briefcase' ></i>
+                                       <i className='bx bx-briefcase' ></i>
                                        Freelance
                                     </li>
                                  </ul>
                               </div>
                            </div>
 
-                           <div class="col-lg-3">
-                              <div class="job-save">
+                           <div className="col-lg-3">
+                              <div className="job-save">
                                  <a href="#">
-                                    <i class='bx bx-heart'></i>
+                                    <i className='bx bx-heart'></i>
                                  </a>
                                  <p>
-                                    <i class='bx bx-stopwatch' ></i>
+                                    <i className='bx bx-stopwatch' ></i>
                                     6 Hr Ago
                                  </p>
                               </div>
@@ -425,47 +425,47 @@ const Home = () => {
                      </div>
                   </div>
 
-                  <div class="col-sm-6">
-                     <div class="job-card">
-                        <div class="row align-items-center">
-                           <div class="col-lg-3">
-                              <div class="thumb-img">
+                  <div className="col-sm-6">
+                     <div className="job-card">
+                        <div className="row align-items-center">
+                           <div className="col-lg-3">
+                              <div className="thumb-img">
                                  <a href="job-details.html">
                                     <img src="assets/img/company-logo/6.png" alt="company logo" />
                                  </a>
                               </div>
                            </div>
 
-                           <div class="col-lg-6">
-                              <div class="job-info">
+                           <div className="col-lg-6">
+                              <div className="job-info">
                                  <h3>
                                     <a href="job-details.html">UI/UX Designer</a>
                                  </h3>
                                  <ul>
                                     <li>Via <a href="#">Design Hunter</a></li>
                                     <li>
-                                       <i class='bx bx-location-plus'></i>
+                                       <i className='bx bx-location-plus'></i>
                                        Zoo Rd, London
                                     </li>
                                     <li>
-                                       <i class='bx bx-filter-alt' ></i>
+                                       <i className='bx bx-filter-alt' ></i>
                                        Accountancy
                                     </li>
                                     <li>
-                                       <i class='bx bx-briefcase' ></i>
+                                       <i className='bx bx-briefcase' ></i>
                                        Freelance
                                     </li>
                                  </ul>
                               </div>
                            </div>
 
-                           <div class="col-lg-3">
-                              <div class="job-save">
+                           <div className="col-lg-3">
+                              <div className="job-save">
                                  <a href="#">
-                                    <i class='bx bx-heart'></i>
+                                    <i className='bx bx-heart'></i>
                                  </a>
                                  <p>
-                                    <i class='bx bx-stopwatch' ></i>
+                                    <i className='bx bx-stopwatch' ></i>
                                     8 Hr Ago
                                  </p>
                               </div>
@@ -479,35 +479,35 @@ const Home = () => {
          {/* <!-- Jobs Section End --> */}
 
          {/* <!-- Way To Use Section Start --> */}
-         <section class="use-section pt-100 pb-70">
-            <div class="container">
-               <div class="section-title text-center">
+         <section className="use-section pt-100 pb-70">
+            <div className="container">
+               <div className="section-title text-center">
                   <h2>Easiest Way To Use</h2>
                </div>
 
-               <div class="row">
-                  <div class="col-md-4 col-sm-6">
-                     <div class="use-text">
+               <div className="row">
+                  <div className="col-md-4 col-sm-6">
+                     <div className="use-text">
                         <span>1</span>
-                        <i class='flaticon-website'></i>
+                        <i className='flaticon-website'></i>
                         <h3>Browse Job</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
                      </div>
                   </div>
 
-                  <div class="col-md-4 col-sm-6">
-                     <div class="use-text">
+                  <div className="col-md-4 col-sm-6">
+                     <div className="use-text">
                         <span>2</span>
-                        <i class='flaticon-recruitment'></i>
+                        <i className='flaticon-recruitment'></i>
                         <h3>Find Your Vaccancy</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
                      </div>
                   </div>
 
-                  <div class="col-md-4 col-sm-6 offset-sm-3 offset-md-0">
-                     <div class="use-text">
+                  <div className="col-md-4 col-sm-6 offset-sm-3 offset-md-0">
+                     <div className="use-text">
                         <span>3</span>
-                        <i class='flaticon-login'></i>
+                        <i className='flaticon-login'></i>
                         <h3>Submit Resume</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
                      </div>
@@ -518,88 +518,88 @@ const Home = () => {
          {/* <!-- Way To Use Section End --> */}
 
          {/* <!-- Companies Section Start --> */}
-         <section class="company-section pt-100 pb-70">
-            <div class="container">
-               <div class="section-title text-center">
+         <section className="company-section pt-100 pb-70">
+            <div className="container">
+               <div className="section-title text-center">
                   <h2>Top Companies</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices.</p>
                </div>
 
-               <div class="row">
-                  <div class="col-lg-3 col-sm-6">
-                     <div class="company-card">
-                        <div class="company-logo">
+               <div className="row">
+                  <div className="col-lg-3 col-sm-6">
+                     <div className="company-card">
+                        <div className="company-logo">
                            <a href="job-grid.html">
                               <img src="assets/img/top-company/1.png" alt="company logo" />
                            </a>
                         </div>
-                        <div class="company-text">
+                        <div className="company-text">
                            <h3>Trophy  & Sans</h3>
                            <p>
-                              <i class='bx bx-location-plus'></i>
+                              <i className='bx bx-location-plus'></i>
                               Green Lanes, London
                            </p>
-                           <a href="job-grid.html" class="company-btn">
+                           <a href="job-grid.html" className="company-btn">
                               25 Open Position
                            </a>
                         </div>
                      </div>
                   </div>
 
-                  <div class="col-lg-3 col-sm-6">
-                     <div class="company-card">
-                        <div class="company-logo">
+                  <div className="col-lg-3 col-sm-6">
+                     <div className="company-card">
+                        <div className="company-logo">
                            <a href="job-grid.html">
                               <img src="assets/img/top-company/2.png" alt="company logo" />
                            </a>
                         </div>
-                        <div class="company-text">
+                        <div className="company-text">
                            <h3>Trout Design</h3>
                            <p>
-                              <i class='bx bx-location-plus'></i>
+                              <i className='bx bx-location-plus'></i>
                               Park Avenue, Mumbai
                            </p>
-                           <a href="job-grid.html" class="company-btn">
+                           <a href="job-grid.html" className="company-btn">
                               35 Open Position
                            </a>
                         </div>
                      </div>
                   </div>
 
-                  <div class="col-lg-3 col-sm-6">
-                     <div class="company-card">
-                        <div class="company-logo">
+                  <div className="col-lg-3 col-sm-6">
+                     <div className="company-card">
+                        <div className="company-logo">
                            <a href="job-grid.html">
                               <img src="assets/img/top-company/3.png" alt="company logo" />
                            </a>
                         </div>
-                        <div class="company-text">
+                        <div className="company-text">
                            <h3>Resland LTD</h3>
                            <p>
-                              <i class='bx bx-location-plus'></i>
+                              <i className='bx bx-location-plus'></i>
                               Betas Quence, London
                            </p>
-                           <a href="job-grid.html" class="company-btn">
+                           <a href="job-grid.html" className="company-btn">
                               20 Open Position
                            </a>
                         </div>
                      </div>
                   </div>
 
-                  <div class="col-lg-3 col-sm-6">
-                     <div class="company-card">
-                        <div class="company-logo">
+                  <div className="col-lg-3 col-sm-6">
+                     <div className="company-card">
+                        <div className="company-logo">
                            <a href="job-grid.html">
                               <img src="assets/img/top-company/4.png" alt="company logo" />
                            </a>
                         </div>
-                        <div class="company-text">
+                        <div className="company-text">
                            <h3>Lawn Hopper</h3>
                            <p>
-                              <i class='bx bx-location-plus'></i>
+                              <i className='bx bx-location-plus'></i>
                               Wellesley Rd, London
                            </p>
-                           <a href="job-grid.html" class="company-btn">
+                           <a href="job-grid.html" className="company-btn">
                               45 Open Position
                            </a>
                         </div>
@@ -611,82 +611,82 @@ const Home = () => {
          {/* <!-- Companies Section End --> */}
 
          {/* <!-- Why Choose Section Start --> */}
-         <section class="why-choose">
-            <div class="container-fluid">
-               <div class="row">
-                  <div class="col-lg-7 p-0">
-                     <div class="why-choose-text pt-100 pb-70">
-                        <div class="section-title text-center">
+         <section className="why-choose">
+            <div className="container-fluid">
+               <div className="row">
+                  <div className="col-lg-7 p-0">
+                     <div className="why-choose-text pt-100 pb-70">
+                        <div className="section-title text-center">
                            <h2>Why You Choose Jovie?</h2>
                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolorei.</p>
                         </div>
 
-                        <div class="row">
-                           <div class="col-sm-6">
-                              <div class="media">
-                                 <i class="flaticon-group align-self-center mr-3"></i>
-                                 <div class="media-body">
-                                    <h5 class="mt-0">Best Talented People</h5>
+                        <div className="row">
+                           <div className="col-sm-6">
+                              <div className="media">
+                                 <i className="flaticon-group align-self-center mr-3"></i>
+                                 <div className="media-body">
+                                    <h5 className="mt-0">Best Talented People</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                  </div>
                               </div>
                            </div>
 
-                           <div class="col-sm-6">
-                              <div class="media">
-                                 <i class="flaticon-research align-self-center mr-3"></i>
-                                 <div class="media-body">
-                                    <h5 class="mt-0">Easy To Find Canditate</h5>
+                           <div className="col-sm-6">
+                              <div className="media">
+                                 <i className="flaticon-research align-self-center mr-3"></i>
+                                 <div className="media-body">
+                                    <h5 className="mt-0">Easy To Find Canditate</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                  </div>
                               </div>
                            </div>
 
-                           <div class="col-sm-6">
-                              <div class="media">
-                                 <i class="flaticon-discussion align-self-center mr-3"></i>
-                                 <div class="media-body">
-                                    <h5 class="mt-0">Easy To Communicate</h5>
+                           <div className="col-sm-6">
+                              <div className="media">
+                                 <i className="flaticon-discussion align-self-center mr-3"></i>
+                                 <div className="media-body">
+                                    <h5 className="mt-0">Easy To Communicate</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                  </div>
                               </div>
                            </div>
 
-                           <div class="col-sm-6">
-                              <div class="media">
-                                 <i class="flaticon-recruitment align-self-center mr-3"></i>
-                                 <div class="media-body">
-                                    <h5 class="mt-0">Global Recruitment Option</h5>
+                           <div className="col-sm-6">
+                              <div className="media">
+                                 <i className="flaticon-recruitment align-self-center mr-3"></i>
+                                 <div className="media-body">
+                                    <h5 className="mt-0">Global Recruitment Option</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                  </div>
                               </div>
                            </div>
                         </div>
 
-                        <div class="row counter-area">
-                           <div class="col-md-3 col-6">
-                              <div class="counter-text">
+                        <div className="row counter-area">
+                           <div className="col-md-3 col-6">
+                              <div className="counter-text">
                                  <h2><span>127</span></h2>
                                  <p>Job Posted</p>
                               </div>
                            </div>
 
-                           <div class="col-md-3 col-6">
-                              <div class="counter-text">
+                           <div className="col-md-3 col-6">
+                              <div className="counter-text">
                                  <h2><span>137</span></h2>
                                  <p>Job Filed</p>
                               </div>
                            </div>
 
-                           <div class="col-md-3 col-6">
-                              <div class="counter-text">
+                           <div className="col-md-3 col-6">
+                              <div className="counter-text">
                                  <h2><span>180</span></h2>
                                  <p>Company</p>
                               </div>
                            </div>
 
-                           <div class="col-md-3 col-6">
-                              <div class="counter-text">
+                           <div className="col-md-3 col-6">
+                              <div className="counter-text">
                                  <h2><span>144</span></h2>
                                  <p>Members</p>
                               </div>
@@ -695,8 +695,8 @@ const Home = () => {
                      </div>
                   </div>
 
-                  <div class="col-lg-5 p-0">
-                     <div class="why-choose-img">
+                  <div className="col-lg-5 p-0">
+                     <div className="why-choose-img">
                      </div>
                   </div>
                </div>
@@ -705,37 +705,37 @@ const Home = () => {
          {/* <!-- Why Choose Section End --> */}
 
          {/* <!-- Job Info Section Start --> */}
-         <div class="job-info pt-100 pb-70">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-6">
-                     <div class="looking-job">
-                        <div class="media">
-                           <i class='flaticon-group align-self-start mr-3'></i>
-                           <div class="media-body">
-                              <h5 class="mt-0">Looking For a Job</h5>
+         <div className="job-info pt-100 pb-70">
+            <div className="container">
+               <div className="row">
+                  <div className="col-md-6">
+                     <div className="looking-job">
+                        <div className="media">
+                           <i className='flaticon-group align-self-start mr-3'></i>
+                           <div className="media-body">
+                              <h5 className="mt-0">Looking For a Job</h5>
                               <p>Your next role could be with one of these top leading organizations</p>
 
                               <a href="job-list.html">
                                  Apply Now
-                                 <i class='bx bx-chevrons-right'></i>
+                                 <i className='bx bx-chevrons-right'></i>
                               </a>
                            </div>
                         </div>
                      </div>
                   </div>
 
-                  <div class="col-md-6">
-                     <div class="recruiting-card">
-                        <div class="media">
-                           <i class='flaticon-resume align-self-start mr-3'></i>
-                           <div class="media-body">
-                              <h5 class="mt-0">Are You Recruiting?</h5>
+                  <div className="col-md-6">
+                     <div className="recruiting-card">
+                        <div className="media">
+                           <i className='flaticon-resume align-self-start mr-3'></i>
+                           <div className="media-body">
+                              <h5 className="mt-0">Are You Recruiting?</h5>
                               <p>Your next role could be with one of these top leading organizations</p>
 
                               <a href="post-job.html">
                                  Apply Now
-                                 <i class='bx bx-chevrons-right'></i>
+                                 <i className='bx bx-chevrons-right'></i>
                               </a>
                            </div>
                         </div>
@@ -747,106 +747,106 @@ const Home = () => {
          {/* <!-- Job Info Section End --> */}
 
          {/* <!-- Pricing Section Start --> */}
-         <section class="pricing-section pb-70">
-            <div class="container">
-               <div class="section-title text-center">
+         <section className="pricing-section pb-70">
+            <div className="container">
+               <div className="section-title text-center">
                   <h2>Buy Our Plans & Packages</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
                </div>
 
-               <div class="row">
-                  <div class="col-lg-4 col-sm-6">
-                     <div class="price-card">
-                        <div class="price-top">
+               <div className="row">
+                  <div className="col-lg-4 col-sm-6">
+                     <div className="price-card">
+                        <div className="price-top">
                            <h3>Free Forever</h3>
-                           <i class='bx bx-user'></i>
+                           <i className='bx bx-user'></i>
                            <h2>0<sub>/Month</sub></h2>
                         </div>
 
-                        <div class="price-feature">
+                        <div className="price-feature">
                            <ul>
                               <li>
-                                 <i class='bx bx-check'></i>
+                                 <i className='bx bx-check'></i>
                                  Appear in results
                               </li>
                               <li>
-                                 <i class='bx bx-check'></i>
+                                 <i className='bx bx-check'></i>
                                  <strong>Accept mobile app</strong>
                               </li>
                               <li>
-                                 <i class='bx bx-check'></i>
+                                 <i className='bx bx-check'></i>
                                  Manage canditates directly
                               </li>
                            </ul>
                         </div>
 
-                        <div class="price-btn">
+                        <div className="price-btn">
                            <a href="post-job.html">Find A  Job</a>
                         </div>
                      </div>
                   </div>
 
-                  <div class="col-lg-4 col-sm-6">
-                     <div class="price-card mt-12">
-                        <div class="price-top">
+                  <div className="col-lg-4 col-sm-6">
+                     <div className="price-card mt-12">
+                        <div className="price-top">
                            <h3>Sponsor</h3>
-                           <i class='bx bx-user'></i>
+                           <i className='bx bx-user'></i>
                            <h2>10<sub>/Month</sub></h2>
                         </div>
 
-                        <div class="price-feature">
+                        <div className="price-feature">
                            <ul>
                               <li>
-                                 <i class='bx bx-check'></i>
+                                 <i className='bx bx-check'></i>
                                  Premium placement
                               </li>
                               <li>
-                                 <i class='bx bx-check'></i>
+                                 <i className='bx bx-check'></i>
                                  <strong>PPC on your job</strong>
                               </li>
                               <li>
-                                 <i class='bx bx-check'></i>
+                                 <i className='bx bx-check'></i>
                                  Reach more candidates
                               </li>
                               <li>
-                                 <i class='bx bx-check'></i>
+                                 <i className='bx bx-check'></i>
                                  Desktop, mobile job alerts
                               </li>
                            </ul>
                         </div>
 
-                        <div class="price-btn">
+                        <div className="price-btn">
                            <a href="post-job.html">Find A  Job</a>
                         </div>
                      </div>
                   </div>
 
-                  <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
-                     <div class="price-card">
-                        <div class="price-top">
+                  <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+                     <div className="price-card">
+                        <div className="price-top">
                            <h3>Premium Plan</h3>
-                           <i class='bx bx-user'></i>
+                           <i className='bx bx-user'></i>
                            <h2>30<sub>/Month</sub></h2>
                         </div>
 
-                        <div class="price-feature">
+                        <div className="price-feature">
                            <ul>
                               <li>
-                                 <i class='bx bx-check'></i>
+                                 <i className='bx bx-check'></i>
                                  Job ad live for six-weeks
                               </li>
                               <li>
-                                 <i class='bx bx-check'></i>
+                                 <i className='bx bx-check'></i>
                                  <strong>Premium placement</strong>
                               </li>
                               <li>
-                                 <i class='bx bx-check'></i>
+                                 <i className='bx bx-check'></i>
                                  Desktop, mobile job alerts
                               </li>
                            </ul>
                         </div>
 
-                        <div class="price-btn">
+                        <div className="price-btn">
                            <a href="post-job.html">Find A  Job</a>
                         </div>
                      </div>
@@ -857,281 +857,281 @@ const Home = () => {
          {/* <!-- Pricing Section End --> */}
 
          {/* <!-- Candidate Section Start --> */}
-         <section class="candidate-section pb-100">
-            <div class="container">
-               <div class="section-title text-center">
+         <section className="candidate-section pb-100">
+            <div className="container">
+               <div className="section-title text-center">
                   <h2>Featured Candidates</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus</p>
                </div>
 
-               <div class="condidate-slider owl-carousel owl-theme">
-                  <div class="condidate-item">
-                     <div class="candidate-img">
+               <div className="condidate-slider owl-carousel owl-theme">
+                  <div className="condidate-item">
+                     <div className="candidate-img">
                         <img src="assets/img/candidate/1.jpg" alt="candidate image" />
                      </div>
-                     <div class="candidate-social">
-                        <a href="#" target="_blank"><i class='bx bxl-facebook'></i></a>
-                        <a href="#" target="_blank"><i class='bx bxl-twitter'></i></a>
-                        <a href="#" target="_blank"><i class='bx bxl-instagram'></i></a>
+                     <div className="candidate-social">
+                        <a href="#" target="_blank"><i className='bx bxl-facebook'></i></a>
+                        <a href="#" target="_blank"><i className='bx bxl-twitter'></i></a>
+                        <a href="#" target="_blank"><i className='bx bxl-instagram'></i></a>
                      </div>
-                     <div class="candidate-text">
+                     <div className="candidate-text">
                         <h3><a href="candidate-details.html">Mibraj Alex</a></h3>
                         <ul>
                            <li>
-                              <i class='bx bx-filter-alt'></i>
+                              <i className='bx bx-filter-alt'></i>
                               Construction & Property
                            </li>
                            <li>
-                              <i class='bx bx-location-plus'></i>
+                              <i className='bx bx-location-plus'></i>
                               Botchergate, Carlisle
                            </li>
                         </ul>
 
-                        <div class="bottom-text">
+                        <div className="bottom-text">
                            <p>
-                              <i class='bx bx-stopwatch'></i>
+                              <i className='bx bx-stopwatch'></i>
                               9D ago
                            </p>
                            <a href="#">
-                              <i class='bx bx-heart'></i>
+                              <i className='bx bx-heart'></i>
                            </a>
                         </div>
                      </div>
                   </div>
 
-                  <div class="condidate-item">
-                     <div class="candidate-img">
+                  <div className="condidate-item">
+                     <div className="candidate-img">
                         <img src="assets/img/candidate/2.jpg" alt="candidate image" />
                      </div>
-                     <div class="candidate-social">
-                        <a href="#" target="_blank"><i class='bx bxl-facebook'></i></a>
-                        <a href="#" target="_blank"><i class='bx bxl-twitter'></i></a>
-                        <a href="#" target="_blank"><i class='bx bxl-instagram'></i></a>
+                     <div className="candidate-social">
+                        <a href="#" target="_blank"><i className='bx bxl-facebook'></i></a>
+                        <a href="#" target="_blank"><i className='bx bxl-twitter'></i></a>
+                        <a href="#" target="_blank"><i className='bx bxl-instagram'></i></a>
                      </div>
-                     <div class="candidate-text">
+                     <div className="candidate-text">
                         <h3><a href="candidate-details.html">Felica Kareon</a></h3>
                         <ul>
                            <li>
-                              <i class='bx bx-filter-alt'></i>
+                              <i className='bx bx-filter-alt'></i>
                               SEO Expart
                            </li>
                            <li>
-                              <i class='bx bx-location-plus'></i>
+                              <i className='bx bx-location-plus'></i>
                               Georgetown, USA
                            </li>
                         </ul>
 
-                        <div class="bottom-text">
+                        <div className="bottom-text">
                            <p>
-                              <i class='bx bx-stopwatch'></i>
+                              <i className='bx bx-stopwatch'></i>
                               8D ago
                            </p>
                            <a href="#">
-                              <i class='bx bx-heart' ></i>
+                              <i className='bx bx-heart' ></i>
                            </a>
                         </div>
                      </div>
                   </div>
 
-                  <div class="condidate-item">
-                     <div class="candidate-img">
+                  <div className="condidate-item">
+                     <div className="candidate-img">
                         <img src="assets/img/candidate/3.jpg" alt="candidate image" />
                      </div>
-                     <div class="candidate-social">
-                        <a href="#" target="_blank"><i class='bx bxl-facebook'></i></a>
-                        <a href="#" target="_blank"><i class='bx bxl-twitter'></i></a>
-                        <a href="#" target="_blank"><i class='bx bxl-instagram'></i></a>
+                     <div className="candidate-social">
+                        <a href="#" target="_blank"><i className='bx bxl-facebook'></i></a>
+                        <a href="#" target="_blank"><i className='bx bxl-twitter'></i></a>
+                        <a href="#" target="_blank"><i className='bx bxl-instagram'></i></a>
                      </div>
-                     <div class="candidate-text">
+                     <div className="candidate-text">
                         <h3><a href="candidate-details.html">Malisha Patel</a></h3>
                         <ul>
                            <li>
-                              <i class='bx bx-filter-alt'></i>
+                              <i className='bx bx-filter-alt'></i>
                               Project Management
                            </li>
                            <li>
-                              <i class='bx bx-location-plus'></i>
+                              <i className='bx bx-location-plus'></i>
                               Madison, USA
                            </li>
                         </ul>
 
-                        <div class="bottom-text">
+                        <div className="bottom-text">
                            <p>
-                              <i class='bx bx-stopwatch'></i>
+                              <i className='bx bx-stopwatch'></i>
                               1D ago
                            </p>
                            <a href="#">
-                              <i class='bx bx-heart'></i>
+                              <i className='bx bx-heart'></i>
                            </a>
                         </div>
                      </div>
                   </div>
 
-                  <div class="condidate-item">
-                     <div class="candidate-img">
+                  <div className="condidate-item">
+                     <div className="candidate-img">
                         <img src="assets/img/candidate/1.jpg" alt="candidate image" />
                      </div>
-                     <div class="candidate-social">
-                        <a href="#" target="_blank"><i class='bx bxl-facebook'></i></a>
-                        <a href="#" target="_blank"><i class='bx bxl-twitter'></i></a>
-                        <a href="#" target="_blank"><i class='bx bxl-instagram'></i></a>
+                     <div className="candidate-social">
+                        <a href="#" target="_blank"><i className='bx bxl-facebook'></i></a>
+                        <a href="#" target="_blank"><i className='bx bxl-twitter'></i></a>
+                        <a href="#" target="_blank"><i className='bx bxl-instagram'></i></a>
                      </div>
-                     <div class="candidate-text">
+                     <div className="candidate-text">
                         <h3><a href="candidate-details.html">Mibraj Alex</a></h3>
                         <ul>
                            <li>
-                              <i class='bx bx-filter-alt'></i>
+                              <i className='bx bx-filter-alt'></i>
                               Construction & Property
                            </li>
                            <li>
-                              <i class='bx bx-location-plus'></i>
+                              <i className='bx bx-location-plus'></i>
                               Botchergate, Carlisle
                            </li>
                         </ul>
 
-                        <div class="bottom-text">
+                        <div className="bottom-text">
                            <p>
-                              <i class='bx bx-stopwatch'></i>
+                              <i className='bx bx-stopwatch'></i>
                               9D ago
                            </p>
                            <a href="#">
-                              <i class='bx bx-heart'></i>
+                              <i className='bx bx-heart'></i>
                            </a>
                         </div>
                      </div>
                   </div>
 
-                  <div class="condidate-item">
-                     <div class="candidate-img">
+                  <div className="condidate-item">
+                     <div className="candidate-img">
                         <img src="assets/img/candidate/4.jpg" alt="candidate image" />
                      </div>
-                     <div class="candidate-social">
-                        <a href="#" target="_blank"><i class='bx bxl-facebook'></i></a>
-                        <a href="#" target="_blank"><i class='bx bxl-twitter'></i></a>
-                        <a href="#" target="_blank"><i class='bx bxl-instagram'></i></a>
+                     <div className="candidate-social">
+                        <a href="#" target="_blank"><i className='bx bxl-facebook'></i></a>
+                        <a href="#" target="_blank"><i className='bx bxl-twitter'></i></a>
+                        <a href="#" target="_blank"><i className='bx bxl-instagram'></i></a>
                      </div>
-                     <div class="candidate-text">
+                     <div className="candidate-text">
                         <h3><a href="candidate-details.html">Quence Joes</a></h3>
                         <ul>
                            <li>
-                              <i class='bx bx-filter-alt'></i>
+                              <i className='bx bx-filter-alt'></i>
                               Web Developer
                            </li>
                            <li>
-                              <i class='bx bx-location-plus'></i>
+                              <i className='bx bx-location-plus'></i>
                               Augusta, Maine
                            </li>
                         </ul>
 
-                        <div class="bottom-text">
+                        <div className="bottom-text">
                            <p>
-                              <i class='bx bx-stopwatch'></i>
+                              <i className='bx bx-stopwatch'></i>
                               8D ago
                            </p>
                            <a href="#">
-                              <i class='bx bx-heart'></i>
+                              <i className='bx bx-heart'></i>
                            </a>
                         </div>
                      </div>
                   </div>
 
-                  <div class="condidate-item">
-                     <div class="candidate-img">
+                  <div className="condidate-item">
+                     <div className="candidate-img">
                         <img src="assets/img/candidate/2.jpg" alt="candidate image" />
                      </div>
-                     <div class="candidate-social">
-                        <a href="#" target="_blank"><i class='bx bxl-facebook'></i></a>
-                        <a href="#" target="_blank"><i class='bx bxl-twitter'></i></a>
-                        <a href="#" target="_blank"><i class='bx bxl-instagram'></i></a>
+                     <div className="candidate-social">
+                        <a href="#" target="_blank"><i className='bx bxl-facebook'></i></a>
+                        <a href="#" target="_blank"><i className='bx bxl-twitter'></i></a>
+                        <a href="#" target="_blank"><i className='bx bxl-instagram'></i></a>
                      </div>
-                     <div class="candidate-text">
+                     <div className="candidate-text">
                         <h3><a href="candidate-details.html">Felica Kareon</a></h3>
                         <ul>
                            <li>
-                              <i class='bx bx-filter-alt'></i>
+                              <i className='bx bx-filter-alt'></i>
                               SEO Expart
                            </li>
                            <li>
-                              <i class='bx bx-location-plus'></i>
+                              <i className='bx bx-location-plus'></i>
                               Georgetown, USA
                            </li>
                         </ul>
 
-                        <div class="bottom-text">
+                        <div className="bottom-text">
                            <p>
-                              <i class='bx bx-stopwatch'></i>
+                              <i className='bx bx-stopwatch'></i>
                               8D ago
                            </p>
                            <a href="#">
-                              <i class='bx bx-heart'></i>
+                              <i className='bx bx-heart'></i>
                            </a>
                         </div>
                      </div>
                   </div>
 
-                  <div class="condidate-item">
-                     <div class="candidate-img">
+                  <div className="condidate-item">
+                     <div className="candidate-img">
                         <img src="assets/img/candidate/3.jpg" alt="candidate image" />
                      </div>
-                     <div class="candidate-social">
-                        <a href="#" target="_blank"><i class='bx bxl-facebook'></i></a>
-                        <a href="#" target="_blank"><i class='bx bxl-twitter'></i></a>
-                        <a href="#" target="_blank"><i class='bx bxl-instagram'></i></a>
+                     <div className="candidate-social">
+                        <a href="#" target="_blank"><i className='bx bxl-facebook'></i></a>
+                        <a href="#" target="_blank"><i className='bx bxl-twitter'></i></a>
+                        <a href="#" target="_blank"><i className='bx bxl-instagram'></i></a>
                      </div>
-                     <div class="candidate-text">
+                     <div className="candidate-text">
                         <h3><a href="candidate-details.html">Malisa Petel</a></h3>
                         <ul>
                            <li>
-                              <i class='bx bx-filter-alt'></i>
+                              <i className='bx bx-filter-alt'></i>
                               Project Management
                            </li>
                            <li>
-                              <i class='bx bx-location-plus'></i>
+                              <i className='bx bx-location-plus'></i>
                               Madison, USA
                            </li>
                         </ul>
 
-                        <div class="bottom-text">
+                        <div className="bottom-text">
                            <p>
-                              <i class='bx bx-stopwatch'></i>
+                              <i className='bx bx-stopwatch'></i>
                               1D ago
                            </p>
                            <a href="#">
-                              <i class='bx bx-heart'></i>
+                              <i className='bx bx-heart'></i>
                            </a>
                         </div>
                      </div>
                   </div>
 
-                  <div class="condidate-item">
-                     <div class="candidate-img">
+                  <div className="condidate-item">
+                     <div className="candidate-img">
                         <img src="assets/img/candidate/4.jpg" alt="candidate image" />
                      </div>
-                     <div class="candidate-social">
-                        <a href="#" target="_blank"><i class='bx bxl-facebook'></i></a>
-                        <a href="#" target="_blank"><i class='bx bxl-twitter'></i></a>
-                        <a href="#" target="_blank"><i class='bx bxl-instagram'></i></a>
+                     <div className="candidate-social">
+                        <a href="#" target="_blank"><i className='bx bxl-facebook'></i></a>
+                        <a href="#" target="_blank"><i className='bx bxl-twitter'></i></a>
+                        <a href="#" target="_blank"><i className='bx bxl-instagram'></i></a>
                      </div>
-                     <div class="candidate-text">
+                     <div className="candidate-text">
                         <h3><a href="candidate-details.html">Quence Joes</a></h3>
                         <ul>
                            <li>
-                              <i class='bx bx-filter-alt'></i>
+                              <i className='bx bx-filter-alt'></i>
                               Web Developer
                            </li>
                            <li>
-                              <i class='bx bx-location-plus'></i>
+                              <i className='bx bx-location-plus'></i>
                               Augusta, Maine
                            </li>
                         </ul>
 
-                        <div class="bottom-text">
+                        <div className="bottom-text">
                            <p>
-                              <i class='bx bx-stopwatch'></i>
+                              <i className='bx bx-stopwatch'></i>
                               8D ago
                            </p>
                            <a href="#">
-                              <i class='bx bx-heart'></i>
+                              <i className='bx bx-heart'></i>
                            </a>
                         </div>
                      </div>
@@ -1142,49 +1142,49 @@ const Home = () => {
          {/* <!-- Candidate Section End --> */}
 
          {/* <!-- Testimonial Section Start --> */}
-         <section class="testimonial-section ptb-100">
-            <div class="container">
-               <div class="section-title text-center">
+         <section className="testimonial-section ptb-100">
+            <div className="container">
+               <div className="section-title text-center">
                   <h2>What Client’s Say About Us</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus</p>
                </div>
 
-               <div class="row">
-                  <div class="testimonial-slider owl-carousel owl-theme">
-                     <div class="testimonial-items">
-                        <div class="row align-items-center">
-                           <div class="col-lg-5 col-md-6 offset-md-3 offset-lg-0 p-0">
-                              <div class="testimonial-img">
+               <div className="row">
+                  <div className="testimonial-slider owl-carousel owl-theme">
+                     <div className="testimonial-items">
+                        <div className="row align-items-center">
+                           <div className="col-lg-5 col-md-6 offset-md-3 offset-lg-0 p-0">
+                              <div className="testimonial-img">
                                  <img src="assets/img/testimonial-img.jpg" alt="testimonial image" />
                               </div>
-                              <div class="testimonial-img-text">
+                              <div className="testimonial-img-text">
                                  <h3>Alisa Meair</h3>
                                  <p>CEO of  Company</p>
                               </div>
                            </div>
-                           <div class="col-lg-7 p-0">
-                              <div class="testimonial-text">
-                                 <i class='flaticon-left-quotes-sign'></i>
+                           <div className="col-lg-7 p-0">
+                              <div className="testimonial-text">
+                                 <i className='flaticon-left-quotes-sign'></i>
                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do mod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
                               </div>
                            </div>
                         </div>
                      </div>
 
-                     <div class="testimonial-items">
-                        <div class="row align-items-center">
-                           <div class="col-lg-5 col-md-6 offset-md-3 offset-lg-0 p-0">
-                              <div class="testimonial-img">
+                     <div className="testimonial-items">
+                        <div className="row align-items-center">
+                           <div className="col-lg-5 col-md-6 offset-md-3 offset-lg-0 p-0">
+                              <div className="testimonial-img">
                                  <img src="assets/img/testimonial-img-2.jpg" alt="testimonial image" />
                               </div>
-                              <div class="testimonial-img-text">
+                              <div className="testimonial-img-text">
                                  <h3>John Doe</h3>
                                  <p>Web Designer</p>
                               </div>
                            </div>
-                           <div class="col-lg-7 p-0">
-                              <div class="testimonial-text">
-                                 <i class='flaticon-left-quotes-sign'></i>
+                           <div className="col-lg-7 p-0">
+                              <div className="testimonial-text">
+                                 <i className='flaticon-left-quotes-sign'></i>
                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do mod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
                               </div>
                            </div>
@@ -1197,29 +1197,29 @@ const Home = () => {
          {/* <!-- Testimonial Section End --> */}
 
          {/* <!-- Blog Section Start --> */}
-         <section class="blog-section pt-100 pb-70">
-            <div class="container">
-               <div class="section-title text-center">
+         <section className="blog-section pt-100 pb-70">
+            <div className="container">
+               <div className="section-title text-center">
                   <h2>News, Tips & Articles</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus</p>
                </div>
 
-               <div class="row">
-                  <div class="col-lg-4 col-sm-6">
-                     <div class="blog-card">
-                        <div class="blog-img">
+               <div className="row">
+                  <div className="col-lg-4 col-sm-6">
+                     <div className="blog-card">
+                        <div className="blog-img">
                            <a href="blog-details.html">
                               <img src="assets/img/blog/1.jpg" alt="blog image" />
                            </a>
                         </div>
-                        <div class="blog-text">
+                        <div className="blog-text">
                            <ul>
                               <li>
-                                 <i class='bx bxs-user'></i>
+                                 <i className='bx bxs-user'></i>
                                  Admin
                               </li>
                               <li>
-                                 <i class='bx bx-calendar'></i>
+                                 <i className='bx bx-calendar'></i>
                                  7 Feb, 2021
                               </li>
                            </ul>
@@ -1231,29 +1231,29 @@ const Home = () => {
                            </h3>
                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
 
-                           <a href="blog-details.html" class="blog-btn">
+                           <a href="blog-details.html" className="blog-btn">
                               Read More
-                              <i class='bx bx-plus bx-spin'></i>
+                              <i className='bx bx-plus bx-spin'></i>
                            </a>
                         </div>
                      </div>
                   </div>
 
-                  <div class="col-lg-4 col-sm-6">
-                     <div class="blog-card">
-                        <div class="blog-img">
+                  <div className="col-lg-4 col-sm-6">
+                     <div className="blog-card">
+                        <div className="blog-img">
                            <a href="blog-details.html">
                               <img src="assets/img/blog/2.jpg" alt="blog image" />
                            </a>
                         </div>
-                        <div class="blog-text">
+                        <div className="blog-text">
                            <ul>
                               <li>
-                                 <i class='bx bxs-user'></i>
+                                 <i className='bx bxs-user'></i>
                                  Admin
                               </li>
                               <li>
-                                 <i class='bx bx-calendar'></i>
+                                 <i className='bx bx-calendar'></i>
                                  7 Feb, 2021
                               </li>
                            </ul>
@@ -1265,29 +1265,29 @@ const Home = () => {
                            </h3>
                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
 
-                           <a href="blog-details.html" class="blog-btn">
+                           <a href="blog-details.html" className="blog-btn">
                               Read More
-                              <i class='bx bx-plus bx-spin'></i>
+                              <i className='bx bx-plus bx-spin'></i>
                            </a>
                         </div>
                      </div>
                   </div>
 
-                  <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
-                     <div class="blog-card">
-                        <div class="blog-img">
+                  <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+                     <div className="blog-card">
+                        <div className="blog-img">
                            <a href="blog-details.html">
                               <img src="assets/img/blog/3.jpg" alt="blog image" />
                            </a>
                         </div>
-                        <div class="blog-text">
+                        <div className="blog-text">
                            <ul>
                               <li>
-                                 <i class='bx bxs-user'></i>
+                                 <i className='bx bxs-user'></i>
                                  Admin
                               </li>
                               <li>
-                                 <i class='bx bx-calendar'></i>
+                                 <i className='bx bx-calendar'></i>
                                  7 Feb, 2021
                               </li>
                            </ul>
@@ -1299,9 +1299,9 @@ const Home = () => {
                            </h3>
                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
 
-                           <a href="blog-details.html" class="blog-btn">
+                           <a href="blog-details.html" className="blog-btn">
                               Read More
-                              <i class='bx bx-plus bx-spin'></i>
+                              <i className='bx bx-plus bx-spin'></i>
                            </a>
                         </div>
                      </div>
@@ -1312,12 +1312,12 @@ const Home = () => {
          {/* <!-- Blog Section End --> */}
 
          {/* <!-- Footer Section Start --> */}
-         <footer class="footer-area pt-100 pb-70">
-            <div class="container">
-               <div class="row">
-                  <div class="col-lg-3 col-sm-6">
-                     <div class="footer-widget">
-                        <div class="footer-logo">
+         <footer className="footer-area pt-100 pb-70">
+            <div className="container">
+               <div className="row">
+                  <div className="col-lg-3 col-sm-6">
+                     <div className="footer-widget">
+                        <div className="footer-logo">
                            <a href="index.html">
                               <img src="assets/img/logo.png" alt="logo" />
                            </a>
@@ -1325,52 +1325,52 @@ const Home = () => {
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore magna. Sed eiusmod tempor incididunt ut.</p>
 
-                        <div class="footer-social">
-                           <a href="#" target="_blank"><i class='bx bxl-facebook'></i></a>
-                           <a href="#" target="_blank"><i class='bx bxl-twitter'></i></a>
-                           <a href="#" target="_blank"><i class='bx bxl-pinterest-alt'></i></a>
-                           <a href="#" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                        <div className="footer-social">
+                           <a href="#" target="_blank"><i className='bx bxl-facebook'></i></a>
+                           <a href="#" target="_blank"><i className='bx bxl-twitter'></i></a>
+                           <a href="#" target="_blank"><i className='bx bxl-pinterest-alt'></i></a>
+                           <a href="#" target="_blank"><i className='bx bxl-linkedin'></i></a>
                         </div>
                      </div>
                   </div>
 
-                  <div class="col-lg-3 col-sm-6">
-                     <div class="footer-widget pl-60">
+                  <div className="col-lg-3 col-sm-6">
+                     <div className="footer-widget pl-60">
                         <h3>For Candidate</h3>
                         <ul>
                            <li>
                               <a href="job-grid.html">
-                                 <i class='bx bx-chevrons-right bx-tada'></i>
+                                 <i className='bx bx-chevrons-right bx-tada'></i>
                                  Browse Jobs
                               </a>
                            </li>
                            <li>
                               <a href="account.html">
-                                 <i class='bx bx-chevrons-right bx-tada'></i>
+                                 <i className='bx bx-chevrons-right bx-tada'></i>
                                  Account
                               </a>
                            </li>
                            <li>
                               <a href="catagories.html">
-                                 <i class='bx bx-chevrons-right bx-tada'></i>
+                                 <i className='bx bx-chevrons-right bx-tada'></i>
                                  Browse Categories
                               </a>
                            </li>
                            <li>
                               <a href="resume.html">
-                                 <i class='bx bx-chevrons-right bx-tada'></i>
+                                 <i className='bx bx-chevrons-right bx-tada'></i>
                                  Resume
                               </a>
                            </li>
                            <li>
                               <a href="job-list.html">
-                                 <i class='bx bx-chevrons-right bx-tada'></i>
+                                 <i className='bx bx-chevrons-right bx-tada'></i>
                                  Job List
                               </a>
                            </li>
                            <li>
                               <a href="sign-up.html">
-                                 <i class='bx bx-chevrons-right bx-tada'></i>
+                                 <i className='bx bx-chevrons-right bx-tada'></i>
                                  Sign Up
                               </a>
                            </li>
@@ -1378,43 +1378,43 @@ const Home = () => {
                      </div>
                   </div>
 
-                  <div class="col-lg-3 col-sm-6">
-                     <div class="footer-widget pl-60">
+                  <div className="col-lg-3 col-sm-6">
+                     <div className="footer-widget pl-60">
                         <h3>Quick Links</h3>
                         <ul>
                            <li>
                               <a href="index.html">
-                                 <i class='bx bx-chevrons-right bx-tada'></i>
+                                 <i className='bx bx-chevrons-right bx-tada'></i>
                                  Home
                               </a>
                            </li>
                            <li>
                               <a href="about.html">
-                                 <i class='bx bx-chevrons-right bx-tada'></i>
+                                 <i className='bx bx-chevrons-right bx-tada'></i>
                                  About
                               </a>
                            </li>
                            <li>
                               <a href="faq.html">
-                                 <i class='bx bx-chevrons-right bx-tada'></i>
+                                 <i className='bx bx-chevrons-right bx-tada'></i>
                                  FAQ
                               </a>
                            </li>
                            <li>
                               <a href="pricing.html">
-                                 <i class='bx bx-chevrons-right bx-tada'></i>
+                                 <i className='bx bx-chevrons-right bx-tada'></i>
                                  Pricing
                               </a>
                            </li>
                            <li>
                               <a href="privacy.html">
-                                 <i class='bx bx-chevrons-right bx-tada'></i>
+                                 <i className='bx bx-chevrons-right bx-tada'></i>
                                  Privacy
                               </a>
                            </li>
                            <li>
                               <a href="contact.html">
-                                 <i class='bx bx-chevrons-right bx-tada'></i>
+                                 <i className='bx bx-chevrons-right bx-tada'></i>
                                  Contact
                               </a>
                            </li>
@@ -1422,13 +1422,13 @@ const Home = () => {
                      </div>
                   </div>
 
-                  <div class="col-lg-3 col-sm-6">
-                     <div class="footer-widget footer-info">
+                  <div className="col-lg-3 col-sm-6">
+                     <div className="footer-widget footer-info">
                         <h3>Information</h3>
                         <ul>
                            <li>
                               <span>
-                                 <i class='bx bxs-phone'></i>
+                                 <i className='bx bxs-phone'></i>
                                  Phone:
                               </span>
                               <a href="tel:882569756">
@@ -1438,7 +1438,7 @@ const Home = () => {
 
                            <li>
                               <span>
-                                 <i class='bx bxs-envelope'></i>
+                                 <i className='bx bxs-envelope'></i>
                                  Email:
                               </span>
                               <a href="mailto:info@jovie.com">
@@ -1448,7 +1448,7 @@ const Home = () => {
 
                            <li>
                               <span>
-                                 <i class='bx bx-location-plus'></i>
+                                 <i className='bx bx-location-plus'></i>
                                  Address:
                               </span>
                               123, Denver, USA
@@ -1459,14 +1459,14 @@ const Home = () => {
                </div>
             </div>
          </footer>
-         <div class="copyright-text text-center">
+         <div className="copyright-text text-center">
             <p>© Jovie is Proudly Owned by <a href="https://hibootstrap.com/" target="_blank">HiBootstrp</a></p>
          </div>
          {/* <!-- Footer Section End --> */}
 
          {/* <!-- Back To Top Start --> */}
-         <div class="top-btn">
-            <i class='bx bx-chevrons-up bx-fade-up'></i>
+         <div className="top-btn">
+            <i className='bx bx-chevrons-up bx-fade-up'></i>
          </div>
          {/* <!-- Back To Top End --> */}
       </>

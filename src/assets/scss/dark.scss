@@ -1,7 +1,7 @@
 /*================================================
 Default CSS
 =================================================*/
-$red-color: #fd1616;
+$primary-color: #C74B4B;
 $heading-color: #ffffff;
 $body-color: #ffffff;
 // Switch css
@@ -45,7 +45,7 @@ $body-color: #ffffff;
             margin: auto 0;
             transition: 0.4s;
             box-shadow: 0 0px 15px #2020203d;
-            background: url(../../assets/img/night.png);
+            background: url(../../../public/assets/img/night.png);
             background-repeat: no-repeat;
             background-position: center;
         }
@@ -58,7 +58,7 @@ $body-color: #ffffff;
     }
     input:checked + .slider:before {
         transform: translateX(24px);
-        background: url(../../assets/img/sunny.png);
+        background: url(../../../public/assets/img/sunny.png);
         background-repeat: no-repeat;
         background-position: center;
     }
@@ -85,7 +85,7 @@ $body-color: #ffffff;
             color: #f1f1f1 !important;
 
             &:hover {
-                color: $red-color !important;
+                color: $primary-color !important;
             }
         }
     }
@@ -98,7 +98,7 @@ $body-color: #ffffff;
             color: $body-color !important;
 
             &:hover {
-                color: $red-color !important;
+                color: $primary-color !important;
             }
         }
     }
@@ -197,7 +197,7 @@ $body-color: #ffffff;
                 }
                 .option {
                     &.focus, &:hover {
-                        background-color: $red-color;
+                        background-color: $primary-color;
                     }
                 }
             }
@@ -330,7 +330,7 @@ $body-color: #ffffff;
                         i {
                             background-color: #000000;
                             &:hover {
-                                background-color: $red-color;
+                                background-color: $primary-color;
                             }
                         }
                     }
@@ -425,7 +425,7 @@ $body-color: #ffffff;
                         i {
                             background-color: #000000;
                             &:hover {
-                                background-color: $red-color;
+                                background-color: $primary-color;
                             }
                         }
                     }
@@ -458,7 +458,7 @@ $body-color: #ffffff;
                     a {
                        color: $body-color;
                        &:hover {
-                           color: $red-color;
+                           color: $primary-color;
                        }
                     }
                 }
@@ -485,7 +485,7 @@ $body-color: #ffffff;
                         color: $body-color;
                         background-color: #000000;
                         &:hover {
-                            background-color: $red-color;
+                            background-color: $primary-color;
                         }
                     }
                 }
@@ -528,7 +528,7 @@ $body-color: #ffffff;
            }
            .option {
             &.focus, &:hover {
-                background-color: $red-color;
+                background-color: $primary-color;
             }
         }
         }
