@@ -1,6 +1,9 @@
 const routeNames = {
    home: '/home',
-   contactUs: '/contact-us'
+   ourServices: '/our-services',
+   ourExpertise: '/our-expertise',
+   ourTeam: '/our-team',
+   contactUs: '/contact-us',
 }
 
 export default routeNames;

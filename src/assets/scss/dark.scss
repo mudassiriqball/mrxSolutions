@@ -1,9 +1,10 @@
 /*================================================
 Default CSS
 =================================================*/
-$primary-color: #C74B4B;
-$heading-color: #ffffff;
+$secondary: #f8482c;
+$primary: #ffffff;
 $body-color: #ffffff;
+
 // Switch css
 .switch-box {
     position: fixed;
@@ -85,7 +86,7 @@ $body-color: #ffffff;
             color: #f1f1f1 !important;
 
             &:hover {
-                color: $primary-color !important;
+                color: $secondary !important;
             }
         }
     }
@@ -93,12 +94,12 @@ $body-color: #ffffff;
         color: $body-color;
     }
     .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-        color: $heading-color !important;
+        color: $primary !important;
         a {
             color: $body-color !important;
 
             &:hover {
-                color: $primary-color !important;
+                color: $secondary !important;
             }
         }
     }
@@ -197,7 +198,7 @@ $body-color: #ffffff;
                 }
                 .option {
                     &.focus, &:hover {
-                        background-color: $primary-color;
+                        background-color: $secondary;
                     }
                 }
             }
@@ -330,7 +331,7 @@ $body-color: #ffffff;
                         i {
                             background-color: #000000;
                             &:hover {
-                                background-color: $primary-color;
+                                background-color: $secondary;
                             }
                         }
                     }
@@ -425,7 +426,7 @@ $body-color: #ffffff;
                         i {
                             background-color: #000000;
                             &:hover {
-                                background-color: $primary-color;
+                                background-color: $secondary;
                             }
                         }
                     }
@@ -458,7 +459,7 @@ $body-color: #ffffff;
                     a {
                        color: $body-color;
                        &:hover {
-                           color: $primary-color;
+                           color: $secondary;
                        }
                     }
                 }
@@ -485,7 +486,7 @@ $body-color: #ffffff;
                         color: $body-color;
                         background-color: #000000;
                         &:hover {
-                            background-color: $primary-color;
+                            background-color: $secondary;
                         }
                     }
                 }
@@ -528,7 +529,7 @@ $body-color: #ffffff;
            }
            .option {
             &.focus, &:hover {
-                background-color: $primary-color;
+                background-color: $secondary;
             }
         }
         }

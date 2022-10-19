@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 
 const Home = () => {
+
    return (
       <>
          {/* <!-- Pre-loader Start --> */}
-         <div className="loader-content">
+         {/* <div className="loader-content">
             <div className="d-table">
                <div className="d-table-cell">
                   <div className="sk-circle">
@@ -24,7 +26,7 @@ const Home = () => {
                   </div>
                </div>
             </div>
-         </div>
+         </div> */}
          {/* <!-- Pre-loader End --> */}
 
          <Navbar />
@@ -37,39 +39,9 @@ const Home = () => {
                      <div className="banner-content text-center">
                         <p>Find Jobs, Employment & Career Opportunities</p>
                         <h1>Drop Resume & Get Your Desire Job!</h1>
-
-                        <form className="banner-form">
-                           <div className="row">
-                              <div className="col-md-4">
-                                 <div className="form-group">
-                                    <label for="exampleInputEmail1">Keyword:</label>
-                                    <input type="text" className="form-control" id="exampleInputEmail1" placeholder="Job Title" />
-                                 </div>
-                              </div>
-                              <div className="col-md-4">
-                                 <div className="form-group">
-                                    <label for="exampleInputEmail2">Location:</label>
-                                    <input type="text" className="form-control" id="exampleInputEmail2" placeholder="City or State" />
-                                 </div>
-                              </div>
-
-                              <div className="col-md-4">
-                                 <button type="submit" className="find-btn">
-                                    Find A Jonb
-                                    <i className='bx bx-search'></i>
-                                 </button>
-                              </div>
-                           </div>
-                        </form>
-
-                        <ul className="keyword">
-                           <li>Trending Keywords:</li>
-                           <li><a href="#">Automotive,</a></li>
-                           <li><a href="#">Education,</a></li>
-                           <li><a href="#">Health</a></li>
-                           <li>and</li>
-                           <li><a href="#">Care Engineering</a></li>
-                        </ul>
+                        <button type="submit" className="find-btn">
+                           Get in Touch
+                        </button>
                      </div>
                   </div>
                </div>
@@ -1312,156 +1284,7 @@ const Home = () => {
          {/* <!-- Blog Section End --> */}
 
          {/* <!-- Footer Section Start --> */}
-         <footer className="footer-area pt-100 pb-70">
-            <div className="container">
-               <div className="row">
-                  <div className="col-lg-3 col-sm-6">
-                     <div className="footer-widget">
-                        <div className="footer-logo">
-                           <a href="index.html">
-                              <img src="assets/img/logo.png" alt="logo" />
-                           </a>
-                        </div>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore magna. Sed eiusmod tempor incididunt ut.</p>
-
-                        <div className="footer-social">
-                           <a href="#" target="_blank"><i className='bx bxl-facebook'></i></a>
-                           <a href="#" target="_blank"><i className='bx bxl-twitter'></i></a>
-                           <a href="#" target="_blank"><i className='bx bxl-pinterest-alt'></i></a>
-                           <a href="#" target="_blank"><i className='bx bxl-linkedin'></i></a>
-                        </div>
-                     </div>
-                  </div>
-
-                  <div className="col-lg-3 col-sm-6">
-                     <div className="footer-widget pl-60">
-                        <h3>For Candidate</h3>
-                        <ul>
-                           <li>
-                              <a href="job-grid.html">
-                                 <i className='bx bx-chevrons-right bx-tada'></i>
-                                 Browse Jobs
-                              </a>
-                           </li>
-                           <li>
-                              <a href="account.html">
-                                 <i className='bx bx-chevrons-right bx-tada'></i>
-                                 Account
-                              </a>
-                           </li>
-                           <li>
-                              <a href="catagories.html">
-                                 <i className='bx bx-chevrons-right bx-tada'></i>
-                                 Browse Categories
-                              </a>
-                           </li>
-                           <li>
-                              <a href="resume.html">
-                                 <i className='bx bx-chevrons-right bx-tada'></i>
-                                 Resume
-                              </a>
-                           </li>
-                           <li>
-                              <a href="job-list.html">
-                                 <i className='bx bx-chevrons-right bx-tada'></i>
-                                 Job List
-                              </a>
-                           </li>
-                           <li>
-                              <a href="sign-up.html">
-                                 <i className='bx bx-chevrons-right bx-tada'></i>
-                                 Sign Up
-                              </a>
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
-
-                  <div className="col-lg-3 col-sm-6">
-                     <div className="footer-widget pl-60">
-                        <h3>Quick Links</h3>
-                        <ul>
-                           <li>
-                              <a href="index.html">
-                                 <i className='bx bx-chevrons-right bx-tada'></i>
-                                 Home
-                              </a>
-                           </li>
-                           <li>
-                              <a href="about.html">
-                                 <i className='bx bx-chevrons-right bx-tada'></i>
-                                 About
-                              </a>
-                           </li>
-                           <li>
-                              <a href="faq.html">
-                                 <i className='bx bx-chevrons-right bx-tada'></i>
-                                 FAQ
-                              </a>
-                           </li>
-                           <li>
-                              <a href="pricing.html">
-                                 <i className='bx bx-chevrons-right bx-tada'></i>
-                                 Pricing
-                              </a>
-                           </li>
-                           <li>
-                              <a href="privacy.html">
-                                 <i className='bx bx-chevrons-right bx-tada'></i>
-                                 Privacy
-                              </a>
-                           </li>
-                           <li>
-                              <a href="contact.html">
-                                 <i className='bx bx-chevrons-right bx-tada'></i>
-                                 Contact
-                              </a>
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
-
-                  <div className="col-lg-3 col-sm-6">
-                     <div className="footer-widget footer-info">
-                        <h3>Information</h3>
-                        <ul>
-                           <li>
-                              <span>
-                                 <i className='bx bxs-phone'></i>
-                                 Phone:
-                              </span>
-                              <a href="tel:882569756">
-                                 +101 984 754
-                              </a>
-                           </li>
-
-                           <li>
-                              <span>
-                                 <i className='bx bxs-envelope'></i>
-                                 Email:
-                              </span>
-                              <a href="mailto:info@jovie.com">
-                                 info@jovie.com
-                              </a>
-                           </li>
-
-                           <li>
-                              <span>
-                                 <i className='bx bx-location-plus'></i>
-                                 Address:
-                              </span>
-                              123, Denver, USA
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </footer>
-         <div className="copyright-text text-center">
-            <p>© Jovie is Proudly Owned by <a href="https://hibootstrap.com/" target="_blank">HiBootstrp</a></p>
-         </div>
+         <Footer />
          {/* <!-- Footer Section End --> */}
 
          {/* <!-- Back To Top Start --> */}
