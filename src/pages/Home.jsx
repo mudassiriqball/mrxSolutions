@@ -1,47 +1,29 @@
 import React, { useEffect } from 'react';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
+import NextSvg from '../assets/images/next.svg'
 
 const Home = () => {
 
    return (
       <>
-         {/* <!-- Pre-loader Start --> */}
-         {/* <div className="loader-content">
-            <div className="d-table">
-               <div className="d-table-cell">
-                  <div className="sk-circle">
-                     <div className="sk-circle1 sk-child"></div>
-                     <div className="sk-circle2 sk-child"></div>
-                     <div className="sk-circle3 sk-child"></div>
-                     <div className="sk-circle4 sk-child"></div>
-                     <div className="sk-circle5 sk-child"></div>
-                     <div className="sk-circle6 sk-child"></div>
-                     <div className="sk-circle7 sk-child"></div>
-                     <div className="sk-circle8 sk-child"></div>
-                     <div className="sk-circle9 sk-child"></div>
-                     <div className="sk-circle10 sk-child"></div>
-                     <div className="sk-circle11 sk-child"></div>
-                     <div className="sk-circle12 sk-child"></div>
-                  </div>
-               </div>
-            </div>
-         </div> */}
-         {/* <!-- Pre-loader End --> */}
-
-         <Navbar />
 
          {/* <!-- Banner Section Start --> */}
          <div className="banner-section">
+            <Navbar />
             <div className="d-table">
                <div className="d-table-cell">
                   <div className="container">
-                     <div className="banner-content text-center">
-                        <p>Find Jobs, Employment & Career Opportunities</p>
-                        <h1>Drop Resume & Get Your Desire Job!</h1>
-                        <button type="submit" className="find-btn">
-                           Get in Touch
-                        </button>
+                     <div className='row'>
+                        <div className='col-12 col-md-4'>
+                           <div className="banner-content">
+                              <h2 className='mb-4'>We Make A Difference To Your Business</h2>
+                              <label className='w-100 mb-4'>Mr.X Solution fully managed software development and consulting to help you build great digital products.</label>
+                              <button type="submit" className="find-btn mb-4">
+                                 Get in Touch
+                              </button>
+                           </div>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -49,21 +31,32 @@ const Home = () => {
          </div>
          {/* <!-- Banner Section End --> */}
 
-         {/* <!-- Category Section Start --> */}
+         {/* <!-- Our Services --> */}
          <section className="categories-section pt-100 pb-70">
             <div className="container">
                <div className="section-title text-center">
-                  <h2>Choose Your Category</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices.</p>
+                  <h2>OUR SERVICES</h2>
+                  <p>We Provide Web & Mobile Solutions in Latest Technologies</p>
                </div>
 
                <div className="row">
                   <div className="col-lg-3 col-md-4 col-sm-6">
                      <a href="job-list.html">
                         <div className="category-card">
-                           <i className='flaticon-accounting'></i>
-                           <h3>Accountancy</h3>
-                           <p>301 open position</p>
+                           {/* <i className='flaticon-accounting'></i> */}
+                           <img alt="next" src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png' />
+                           <h3>React JS</h3>
+                           <p>JavaScript / TypeScrip</p>
+                        </div>
+                     </a>
+                  </div>
+                  <div className="col-lg-3 col-md-4 col-sm-6">
+                     <a href="job-list.html">
+                        <div className="category-card">
+                           {/* <i className='flaticon-graduation-cap'></i> */}
+                           <img alt="next" src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/800px-Nextjs-logo.svg.png' />
+                           <h3>Next JS</h3>
+                           <p>SSR SEO</p>
                         </div>
                      </a>
                   </div>
@@ -71,9 +64,10 @@ const Home = () => {
                   <div className="col-lg-3 col-md-4 col-sm-6">
                      <a href="job-list.html">
                         <div className="category-card">
-                           <i className='flaticon-graduation-cap'></i>
-                           <h3>Education</h3>
-                           <p>210 open position</p>
+                           {/* <i className='flaticon-wrench-and-screwdriver-in-cross'></i> */}
+                           <img alt="next" src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png' />
+                           <h3>React Native</h3>
+                           <p>React Native CLI / Expo</p>
                         </div>
                      </a>
                   </div>
@@ -81,9 +75,10 @@ const Home = () => {
                   <div className="col-lg-3 col-md-4 col-sm-6">
                      <a href="job-list.html">
                         <div className="category-card">
-                           <i className='flaticon-wrench-and-screwdriver-in-cross'></i>
-                           <h3>Automotive Jobs</h3>
-                           <p>281 open position</p>
+                           {/* <i className='flaticon-consultation'></i> */}
+                           <img alt="next" src='data:image/png;base64,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' />
+                           <h3>Flutter</h3>
+                           <p>...</p>
                         </div>
                      </a>
                   </div>
@@ -91,19 +86,10 @@ const Home = () => {
                   <div className="col-lg-3 col-md-4 col-sm-6">
                      <a href="job-list.html">
                         <div className="category-card">
-                           <i className='flaticon-consultation'></i>
-                           <h3>Business</h3>
-                           <p>122 open position</p>
-                        </div>
-                     </a>
-                  </div>
-
-                  <div className="col-lg-3 col-md-4 col-sm-6">
-                     <a href="job-list.html">
-                        <div className="category-card">
-                           <i className='flaticon-heart'></i>
-                           <h3>Health Care</h3>
-                           <p>335 open position</p>
+                           {/* <i className='flaticon-heart'></i> */}
+                           <img alt="next" src='https://www.javatpoint.com/js/nodejs/images/node-js-tutorial.png' />
+                           <h3>Node JS</h3>
+                           <p>Express</p>
                         </div>
                      </a>
                   </div>
@@ -111,9 +97,10 @@ const Home = () => {
                   <div className="col-lg-3  col-md-4 col-sm-6">
                      <a href="job-list.html">
                         <div className="category-card">
-                           <i className='flaticon-computer'></i>
-                           <h3>IT & Agency</h3>
-                           <p>401 open position</p>
+                           {/* <i className='flaticon-computer'></i> */}
+                           <img alt="next" src='https://cdn.pixabay.com/photo/2013/07/12/17/22/database-152091__340.png' />
+                           <h3>SQL & NoSQL</h3>
+                           <p>SQL / MongoDB / Firebase</p>
                         </div>
                      </a>
                   </div>
@@ -121,9 +108,10 @@ const Home = () => {
                   <div className="col-lg-3  col-md-4 col-sm-6 offset-md-2 offset-lg-0">
                      <a href="job-list.html">
                         <div className="category-card">
-                           <i className='flaticon-worker'></i>
-                           <h3>Engineering</h3>
-                           <p>100 open position</p>
+                           {/* <i className='flaticon-worker'></i> */}
+                           <img alt="next" src='https://marvel-b1-cdn.bc0a.com/f00000000236551/dt-cdn.net/wp-content/uploads/2021/07/13429_ILL_DevOpsLoop.png' />
+                           <h3>DevOps</h3>
+                           <p>AWS / CI CD</p>
                         </div>
                      </a>
                   </div>
@@ -131,7 +119,8 @@ const Home = () => {
                   <div className="col-lg-3 col-md-4 col-sm-6">
                      <a href="job-list.html">
                         <div className="category-card">
-                           <i className='flaticon-auction'></i>
+                           {/* <i className='flaticon-auction'></i> */}
+                           <img alt="next" src='' />
                            <h3>Legal</h3>
                            <p>201 open position</p>
                         </div>

@@ -39,29 +39,29 @@ const Navbar = ({ t }) => {
          <div className="main-nav">
             <div className="container">
                <nav className="navbar navbar-expand-lg navbar-light">
-                  <a className="navbar-brand" href="index.html">
+                  <a className="navbar-brand div-spin" href="index.html">
                      <img width="100px" src="logo.png" alt="logo" />
                   </a>
                   <div className="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                     <ul className="navbar-nav m-auto">
+                     <ul className="navbar-nav">
                         <li className="nav-item">
                            <a href={routeNames.home} className={`nav-link ${pathname?.includes(routeNames.home) ? 'active' : ''}`}>{'Home'}</a>
                         </li>
                         <li className="nav-item">
                            <a href={routeNames.ourServices} className={`nav-link dropdown-toggle ${pathname?.includes(routeNames.ourServices) ? 'active' : ''}`}>Our Services</a>
-                           <li class="nav-item">
-                        <ul class="dropdown-menu">
-                           <li class="nav-item">
-                              <a href="index.html" class="nav-link">Managed Team Augmentation</a>
-                           </li>
-                           <li class="nav-item">
-                              <a href="index-two.html" class="nav-link">Agile Squads</a>
-                           </li>
-                           <li class="nav-item">
-                              <a href="index-three.html" class="nav-link">MVP Builder</a>
-                           </li>
-                        </ul>
-                     </li>
+                           {/* <li class="nav-item">
+                              <ul class="dropdown-menu">
+                                 <li class="nav-item">
+                                    <a href="index.html" class="nav-link">Managed Team Augmentation</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a href="index-two.html" class="nav-link">Agile Squads</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a href="index-three.html" class="nav-link">MVP Builder</a>
+                                 </li>
+                              </ul>
+                           </li> */}
                         </li>
                         <li className="nav-item">
                            <a href={routeNames.ourExpertise} className={`nav-link ${pathname?.includes(routeNames.ourExpertise) ? 'active' : ''}`}>Our Expertise</a>

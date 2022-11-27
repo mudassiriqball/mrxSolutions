@@ -1,0 +1,34 @@
+{
+   // Use IntelliSense to learn about possible attributes.
+   // Hover to view descriptions of existing attributes.
+   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+   "version": "0.2.0",
+   "configurations": [
+      {
+         #include<iostream>
+using namespace std;
+int main()
+{
+ char jan,fab,march,apr,sum;
+    float avrg;
+    cout<<"Enter the name of month : ";
+    cin>>jan;
+    cin>>fab;
+    cin>>march;
+    cin>>apr;
+    sum=jan+fab+march+apr;
+    cout<<"This is the sum : "<<sum;
+    
+    avrg=jan+fab+march+apr/4;
+    cout<<"This is the avarage of rainfall : "avrg;
+    
+    
+    return 0;
+
+}
+
+
+      }
+
+   ]
+}
